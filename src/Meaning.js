@@ -12,10 +12,10 @@ export default function Meaning(props) {
             <p>{definition.definition}</p>
             <br />
             <em>{definition.example}</em>
+            <br />
           </div>
         );
       })}
-      <p>{props.meaning.definitions[0].definition}</p>
     </div>
   );
 }
