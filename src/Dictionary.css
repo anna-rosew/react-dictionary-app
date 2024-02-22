@@ -1,6 +1,11 @@
-.Dictionary section {
-  background: yellow;
-  padding: 30px;
-  border-radius: 16px;
-  box-shadow: 5px 5px 5px rgba (0, 0, 0, 0.7);
+section {
+  padding: 20px;
+  border-top: 0.1rem solid;
+  margin: 20px 0;
+}
+
+.search-engine {
+  display: block;
+  text-align: center;
+  padding: 100px;
 }

@@ -5,3 +5,13 @@
 .App footer {
   text-align: center;
 }
+
+.App header {
+  border-bottom: 0.1rem solid white;
+}
+
+h3 {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
