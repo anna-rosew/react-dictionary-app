@@ -10,10 +10,13 @@ section {
   margin: 20px 60px;
 }
 
+.word-display {
+  display: block;
+  margin: 20px 60px;
+}
 .search-engine {
   display: block;
-  margin-top: 200px;
-  height: 100vh;
+  margin: 200px auto;
   text-align: center;
   background: #363cf7;
 }
