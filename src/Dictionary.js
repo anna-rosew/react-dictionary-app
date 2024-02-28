@@ -27,6 +27,13 @@ export default function Dictionary() {
     <div className="dictionary">
       <div className="search-engine">
         <h1>Dictionary.</h1>
+        <div className="call-to-search">
+          {" "}
+          <h5>
+            Search a word. Any word. Go on, test us. We know everything (well,
+            almost)...
+          </h5>
+        </div>
         <form onSubmit={search}>
           <input
             type="search"

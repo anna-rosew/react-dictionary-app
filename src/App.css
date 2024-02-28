@@ -12,9 +12,9 @@
 }
 
 h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 100;
-  font-weight: 400;
+  font-family: "Merriweather", serif;
+  font-size: 5em;
+  font-weight: 700;
   font-style: normal;
   text-align: center;
   padding: 10px;
@@ -24,7 +24,7 @@ h1 {
 }
 
 h3 {
-  font-family: "Playfair Display", serif;
+  font-family: "Merriweather", serif;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
@@ -33,4 +33,25 @@ h3 {
   padding: 5px;
   margin: 0 auto;
   text-transform: capitalize;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.call-to-search {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
 }
