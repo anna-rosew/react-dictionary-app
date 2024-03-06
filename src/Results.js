@@ -12,7 +12,7 @@ export default function Results(props) {
           <h1 className="word-text">{props.results.word}</h1>
           <ReactAudioPlayer src={props.results.phonetics[0].audio} controls />
           <br />
-          {props.results.phonetics[1].text}
+          {props.results.phonetics[0].text}
         </div>
 
         {props.results.meanings.map(function (meaning, index) {
